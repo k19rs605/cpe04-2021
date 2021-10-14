@@ -1,6 +1,8 @@
 /**/
 body{
-  background: skyblue
+  position: relative;
+  padding: 0.1em 0.5em;
+  background: linear-gradient(to right, rgb(156, 156, 156), transparent);
 }
 button{
   color: blue;
@@ -72,12 +74,12 @@ button{
     
     #minute {
         font-size: 30px;
-        position:absolute; top:450px; left:60px; width:80px; height:40px;   
+        position:absolute; top:450px; left:60px; width:80px; height:40px;   border-radius: 20px;
     }
     
     #second {
         font-size: 30px;
-        position:absolute; top:450px; left:190px; width:80px; height:40px;   
+        position:absolute; top:450px; left:190px; width:80px; height:40px;   border-radius: 20px;
     }
     
     input[type=number] {text-align: right;}
